@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-size: 18px;
+}
+.form-group {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+button {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.carrito {
+    margin-top: 20px;
+}
+.carrito h3, .carrito p {
+    margin: 5px 0;
+}
+.carrito ul {
+    list-style: none;
+    padding: 0;
+}
+.carrito ul li {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+.btn-eliminar {
+    color: red;
+    cursor: pointer;
+}

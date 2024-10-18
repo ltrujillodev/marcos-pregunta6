@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Carrito de Compras</h1>
+
+    <div>
+        <h2>Productos Disponibles para autos</h2>
+        <form id="producto-form">
+            <div class="form-group">
+                <label for="producto">Selecciona un producto:</label>
+                <select id="producto">
+                    <option value="1" data-precio="1000">Aceite(x3) - S/. 1500</option>
+                    <option value="2" data-precio="2000">llanta(x6) - S/. 3200</option>
+                    <option value="3" data-precio="500">timon(x2) - S/. 500</option>
+                    <option value="4" data-precio="1500">Engranaje(x5) - S/. 1500</option>
+                </select>
+            </div>
+            <button type="submit">Agregar al Carrito</button>
+        </form>
+    </div>
+    <hr>
+    <div class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+<hr>
+        <h3>Resumen</h3>
+        <p>Subtotal 1 (suma de productos): S/. <span id="subtotal1">0.00</span></p>
+        <p>Descuento: S/. <span id="descuento">0.00</span></p>
+        <p>Subtotal 2 (después del descuento): S/. <span id="subtotal2">0.00</span></p>
+        <p>IGV (18%): S/. <span id="igv">0.00</span></p>
+        <p><strong>Total a Pagar: S/. <span id="total">0.00</span></strong></p>
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
